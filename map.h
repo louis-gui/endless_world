@@ -1,5 +1,5 @@
-#include"stdio.h"
-char map[1025][1025]={0};
+#include<stdio.h>
+char map[1026][1026]={0};
 void mappale(){
     map[512][512]=1;
     int i,j,k,l,m,a;
