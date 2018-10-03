@@ -24,6 +24,7 @@ main(){
                     map[i][j]=0;
                 */
                 map[i][j]=60;
+
         }
     mappale();
     char c;

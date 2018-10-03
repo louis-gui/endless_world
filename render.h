@@ -19,6 +19,7 @@ void rend(char map[1026][1026],play player){
         for(j=player.x-42;j<player.x+41;j++){
             if(i==player.y&&j==player.x)
                 printf("\033[31;47mp\033[0m");
+                
             else if(map[i][j]!=0)
                 printf("\033[48;5;%dm \033[0m",getTermColor(1,map[i][j]/2+0.5,0));
             else if(map[i][j]==0)
